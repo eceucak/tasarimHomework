@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC31A0E2280612CD0023D9AD /* IBMPlexSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC31A0E1280612CC0023D9AD /* IBMPlexSans-Light.ttf */; };
 		FCAF43252800DA200017D27E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF43242800DA200017D27E /* AppDelegate.swift */; };
 		FCAF43272800DA200017D27E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF43262800DA200017D27E /* SceneDelegate.swift */; };
 		FCAF43292800DA200017D27E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF43282800DA200017D27E /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC31A0E1280612CC0023D9AD /* IBMPlexSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Light.ttf"; sourceTree = "<group>"; };
+		FC31A0E4280613840023D9AD /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
+		FC31A0E5280613840023D9AD /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		FCAF43212800DA200017D27E /* deneemme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deneemme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCAF43242800DA200017D27E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCAF43262800DA200017D27E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC31A0E3280612D40023D9AD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FC31A0E1280612CC0023D9AD /* IBMPlexSans-Light.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		FCAF43182800DA200017D27E = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +68,7 @@
 		FCAF43232800DA200017D27E /* deneemme */ = {
 			isa = PBXGroup;
 			children = (
+				FC31A0E3280612D40023D9AD /* Fonts */,
 				FCAF43242800DA200017D27E /* AppDelegate.swift */,
 				FCAF43262800DA200017D27E /* SceneDelegate.swift */,
 				FCAF43282800DA200017D27E /* ViewController.swift */,
@@ -109,6 +122,7 @@
 			knownRegions = (
 				en,
 				Base,
+				tr,
 			);
 			mainGroup = FCAF43182800DA200017D27E;
 			productRefGroup = FCAF43222800DA200017D27E /* Products */;
@@ -125,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC31A0E2280612CD0023D9AD /* IBMPlexSans-Light.ttf in Resources */,
 				FCAF43312800DA210017D27E /* LaunchScreen.storyboard in Resources */,
 				FCAF432E2800DA210017D27E /* Assets.xcassets in Resources */,
 				FCAF432C2800DA200017D27E /* Main.storyboard in Resources */,
@@ -151,6 +166,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FCAF432B2800DA200017D27E /* Base */,
+				FC31A0E4280613840023D9AD /* tr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,6 +175,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FCAF43302800DA210017D27E /* Base */,
+				FC31A0E5280613840023D9AD /* tr */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,6 +187,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -231,6 +249,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

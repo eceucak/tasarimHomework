@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  deneemme
 //
-//  Created by Ece Ucak on 9.04.2022.
+//  Created by Ece Ucak on 11.04.2022.
 //
 
 import UIKit

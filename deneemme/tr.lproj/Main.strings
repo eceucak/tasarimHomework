@@ -1,0 +1,45 @@
+
+/* Class = "UILabel"; text = "Judas Priest - Angel"; ObjectID = "FYY-s8-63i"; */
+"FYY-s8-63i.text" = "Judas Priest - Angel";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "HG8-w6-NX1"; */
+"HG8-w6-NX1.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Volume"; ObjectID = "IuU-WP-ZZI"; */
+"IuU-WP-ZZI.text" = "Ses";
+
+/* Class = "UILabel"; text = "Inspired by Ineshkadesilva"; ObjectID = "KRf-L6-AND"; */
+"KRf-L6-AND.text" = "Ineshkadesilva'dan Esinlenilmiştir;
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "MDn-Gu-kku"; */
+"MDn-Gu-kku.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Homepod Playing"; ObjectID = "MWL-UA-JHj"; */
+"MWL-UA-JHj.text" = "Homepod Çalıyor";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "W5Z-gn-PpY"; */
+"W5Z-gn-PpY.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Now Playing"; ObjectID = "Z8z-7K-UXR"; */
+"Z8z-7K-UXR.text" = "Çalan Şarkı";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ZB4-tt-TLU"; */
+"ZB4-tt-TLU.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "Bedroom"; ObjectID = "eT9-tf-xzp"; */
+"eT9-tf-xzp.text" = "Bedroom";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "sHz-xI-8nf"; */
+"sHz-xI-8nf.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "wI7-Ct-irh"; */
+"wI7-Ct-irh.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "xRH-oR-fj3"; */
+"xRH-oR-fj3.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "y6q-ZT-DZg"; */
+"y6q-ZT-DZg.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "ywN-xs-6SD"; */
+"ywN-xs-6SD.normalTitle" = "Button";
