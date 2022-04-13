@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC2385F42807380A00D5E7D6 /* lightMode.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2385F32807380A00D5E7D6 /* lightMode.png */; };
+		FC2385F62807381600D5E7D6 /* darkMode.png in Resources */ = {isa = PBXBuildFile; fileRef = FC2385F52807381600D5E7D6 /* darkMode.png */; };
 		FC31A0E2280612CD0023D9AD /* IBMPlexSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FC31A0E1280612CC0023D9AD /* IBMPlexSans-Light.ttf */; };
 		FCAF43252800DA200017D27E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF43242800DA200017D27E /* AppDelegate.swift */; };
 		FCAF43272800DA200017D27E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF43262800DA200017D27E /* SceneDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FC2385F32807380A00D5E7D6 /* lightMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightMode.png; sourceTree = "<group>"; };
+		FC2385F52807381600D5E7D6 /* darkMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = darkMode.png; sourceTree = "<group>"; };
 		FC31A0E1280612CC0023D9AD /* IBMPlexSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "IBMPlexSans-Light.ttf"; sourceTree = "<group>"; };
 		FC31A0E4280613840023D9AD /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Main.strings; sourceTree = "<group>"; };
 		FC31A0E5280613840023D9AD /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
@@ -68,6 +72,8 @@
 		FCAF43232800DA200017D27E /* deneemme */ = {
 			isa = PBXGroup;
 			children = (
+				FC2385F52807381600D5E7D6 /* darkMode.png */,
+				FC2385F32807380A00D5E7D6 /* lightMode.png */,
 				FC31A0E3280612D40023D9AD /* Fonts */,
 				FCAF43242800DA200017D27E /* AppDelegate.swift */,
 				FCAF43262800DA200017D27E /* SceneDelegate.swift */,
@@ -141,7 +147,9 @@
 			files = (
 				FC31A0E2280612CD0023D9AD /* IBMPlexSans-Light.ttf in Resources */,
 				FCAF43312800DA210017D27E /* LaunchScreen.storyboard in Resources */,
+				FC2385F62807381600D5E7D6 /* darkMode.png in Resources */,
 				FCAF432E2800DA210017D27E /* Assets.xcassets in Resources */,
+				FC2385F42807380A00D5E7D6 /* lightMode.png in Resources */,
 				FCAF432C2800DA200017D27E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
