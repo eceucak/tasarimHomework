@@ -4,7 +4,7 @@
 //
 //  Created by Ece Ucak on 11.04.2022.
 //
-
+//Dark mode a gecerken simulatoru tekrar baslatmak gerekiyor.
 import UIKit
 
 class ViewController: UIViewController {
