@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var homepodLbl: UILabel!
     @IBOutlet weak var nowPlayingLbl: UILabel!
     @IBOutlet weak var songLbl: UILabel!
+ 
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,7 +41,6 @@ class ViewController: UIViewController {
         viewRoom.backgroundColor = UIColor(white: 1, alpha: 0.3)
         viewNowPlaying.backgroundColor = UIColor(white: 1, alpha: 0.3)
     }
-
 
 }
 

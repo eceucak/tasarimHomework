@@ -33,7 +33,7 @@
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="FvC-8f-jD8">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="7" minValue="0.0" maxValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="FvC-8f-jD8">
                                         <rect key="frame" x="18" y="61" width="144" height="31"/>
                                     </slider>
                                 </subviews>
@@ -116,8 +116,8 @@
                                         <color key="textColor" name="MainColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Judas Priest - Angel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYY-s8-63i">
-                                        <rect key="frame" x="25" y="57.5" width="146.5" height="19.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manchester Orchestra - The Silence" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FYY-s8-63i">
+                                        <rect key="frame" x="25" y="57.5" width="262.5" height="19.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                         <color key="textColor" name="SubColor"/>
                                         <nil key="highlightedColor"/>
@@ -148,12 +148,24 @@
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="iHm-k4-onL">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="2" minValue="0.0" maxValue="7" translatesAutoresizingMaskIntoConstraints="NO" id="iHm-k4-onL">
                                         <rect key="frame" x="18" y="110.5" width="334" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="29" id="pZt-Eg-4cT"/>
                                         </constraints>
                                     </slider>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2:54" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="otY-jE-rCf">
+                                        <rect key="frame" x="20" y="140.5" width="26.5" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="7.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="seq-qB-fyY">
+                                        <rect key="frame" x="331" y="140.5" width="24" height="14.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
@@ -165,6 +177,7 @@
                                     <constraint firstItem="W5Z-gn-PpY" firstAttribute="top" secondItem="o1H-08-BjT" secondAttribute="top" constant="15" id="FMa-FU-8kc"/>
                                     <constraint firstItem="W5Z-gn-PpY" firstAttribute="top" secondItem="o1H-08-BjT" secondAttribute="top" constant="15" id="IbU-m4-gcl"/>
                                     <constraint firstItem="Z8z-7K-UXR" firstAttribute="top" secondItem="o1H-08-BjT" secondAttribute="top" constant="15" id="MPU-ll-cdv"/>
+                                    <constraint firstItem="otY-jE-rCf" firstAttribute="top" secondItem="iHm-k4-onL" secondAttribute="bottom" constant="1" id="MR2-wI-60i"/>
                                     <constraint firstItem="y6q-ZT-DZg" firstAttribute="top" secondItem="o1H-08-BjT" secondAttribute="top" constant="15" id="Mst-Ei-zqe"/>
                                     <constraint firstItem="Z8z-7K-UXR" firstAttribute="leading" secondItem="o1H-08-BjT" secondAttribute="leading" constant="52" id="MxT-gj-CX9"/>
                                     <constraint firstItem="W5Z-gn-PpY" firstAttribute="leading" secondItem="o1H-08-BjT" secondAttribute="leading" constant="10" id="NGq-Xj-n1r"/>
@@ -173,9 +186,12 @@
                                     <constraint firstItem="FYY-s8-63i" firstAttribute="leading" secondItem="o1H-08-BjT" secondAttribute="leading" constant="25" id="c1n-iu-dkX"/>
                                     <constraint firstItem="svy-dj-gOP" firstAttribute="centerX" secondItem="o1H-08-BjT" secondAttribute="centerX" id="fvk-H9-YeF"/>
                                     <constraint firstItem="Z8z-7K-UXR" firstAttribute="centerY" secondItem="W5Z-gn-PpY" secondAttribute="centerY" id="hOf-5t-JU0"/>
+                                    <constraint firstItem="seq-qB-fyY" firstAttribute="top" secondItem="iHm-k4-onL" secondAttribute="bottom" constant="1" id="uTs-wz-FeM"/>
                                     <constraint firstItem="iHm-k4-onL" firstAttribute="top" secondItem="FYY-s8-63i" secondAttribute="bottom" constant="33.5" id="wFt-jK-Sgo"/>
+                                    <constraint firstItem="otY-jE-rCf" firstAttribute="leading" secondItem="o1H-08-BjT" secondAttribute="leading" constant="20" id="xJr-0G-oJs"/>
                                     <constraint firstItem="iHm-k4-onL" firstAttribute="centerY" secondItem="o1H-08-BjT" secondAttribute="centerY" id="ycD-UC-hoQ"/>
                                     <constraint firstItem="iHm-k4-onL" firstAttribute="centerX" secondItem="o1H-08-BjT" secondAttribute="centerX" id="ytf-jI-uTQ"/>
+                                    <constraint firstAttribute="trailing" secondItem="seq-qB-fyY" secondAttribute="trailing" constant="15" id="yyx-Iv-TqP"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="30"/>
